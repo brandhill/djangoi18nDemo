@@ -14,16 +14,3 @@ urlpatterns += i18n_patterns('i18n.views',
     url(r'^', landing, name='home'),
 )
 
-# urlpatterns += i18n_patterns('',
-#     url(r'^', include('i18n.urls')),
-# )
-
-
-# urlpatterns = patterns('i18n.views',
-#     url(r'^$', landing),
-# )
-
-
-# urlpatterns += patterns('i18n.views',
-#     url(r'^$', landing),
-# )

@@ -19,51 +19,51 @@ msgstr ""
 
 #: i18n/settings.py:118
 msgid "English"
-msgstr "中文中文"
+msgstr "英文"
 
 #: i18n/settings.py:119
 msgid "Traditional Chinese"
-msgstr "中文中文"
+msgstr "繁體中文"
 
 #: templates/base.html:9
 msgid "My Brand"
-msgstr "中文中文"
+msgstr ""
 
 #: templates/base.html:10
 msgid "Your Brand"
-msgstr "中文中文"
+msgstr ""
 
 #: templates/base.html:35
 msgid "Stay Connected with us:"
-msgstr "中文中文"
+msgstr "保持聯繫"
 
 #: templates/base.html:38
 msgid "Facebook"
-msgstr "中文中文"
+msgstr "臉書"
 
 #: templates/base.html:47
 msgid "Corporate Information"
-msgstr "中文中文"
+msgstr "資訊"
 
 #: templates/base.html:50
 msgid "Privacy Policy"
-msgstr "中文中文"
+msgstr "隱私條款"
 
 #: templates/base.html:55
 msgid "Another Translation - February 2012"
-msgstr "中文中文"
+msgstr "另一個翻譯 - 2012年2月"
 
 #: templates/base.html:66
 msgid "&copy; 2014 COPYRIGHT"
-msgstr "中文中文"
+msgstr ""
 
 #: templates/dual_lang/landing.html:29
 msgid "Top"
-msgstr "中文中文"
+msgstr ""
 
 #: templates/home/landing.html:10 templates/home/landing.html.py:22
 msgid "This is a translation"
-msgstr "中文中文"
+msgstr "這是一則翻譯"
 
 #: templates/home/landing.html:11 templates/home/landing.html.py:23
 #, python-format

@@ -27,43 +27,43 @@ msgstr ""
 
 #: templates/base.html:9
 msgid "My Brand"
-msgstr "My Brand122222"
+msgstr ""
 
 #: templates/base.html:10
 msgid "Your Brand"
-msgstr "English FUCK"
+msgstr ""
 
 #: templates/base.html:35
 msgid "Stay Connected with us:"
-msgstr "English FUCK"
+msgstr ""
 
 #: templates/base.html:38
 msgid "Facebook"
-msgstr "English FUCK"
+msgstr ""
 
 #: templates/base.html:47
 msgid "Corporate Information"
-msgstr "English FUCK"
+msgstr ""
 
 #: templates/base.html:50
 msgid "Privacy Policy"
-msgstr "English FUCK"
+msgstr ""
 
 #: templates/base.html:55
 msgid "Another Translation - February 2012"
-msgstr "Another1224"
+msgstr ""
 
 #: templates/base.html:66
 msgid "&copy; 2014 COPYRIGHT"
-msgstr "English FUCK"
+msgstr ""
 
 #: templates/dual_lang/landing.html:29
 msgid "Top"
-msgstr "Top1234"
+msgstr ""
 
 #: templates/home/landing.html:10 templates/home/landing.html.py:22
 msgid "This is a translation"
-msgstr "This is a translation, FuckFuck!!!"
+msgstr ""
 
 #: templates/home/landing.html:11 templates/home/landing.html.py:23
 #, python-format
