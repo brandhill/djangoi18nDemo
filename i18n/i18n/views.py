@@ -6,10 +6,14 @@ from django.shortcuts import render
 from django.views.generic import TemplateView
 
 
-def HomeView(request):
-
-    return render(request, 'home/landing.html')
-
-#     template_name = 'home/landing.html'
+# def HomeView(request):
 #
-# landing = HomeView.as_view()
+#     return render(request, 'home/landing.html')
+
+
+class NewHomeView(TemplateView):
+
+    template_name = 'home/landing.html'
+
+landing = NewHomeView.as_view()
+

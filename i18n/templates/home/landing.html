@@ -16,3 +16,15 @@
 {% endblock %}
 
 
+{% block content1 %}
+    <div class="wrp wrp-with-content">
+        <div class="col col-with-span-two">
+           {% trans "This is a translation" %}<br><br>
+           {% blocktrans with book_t='book title'|title author_t='an author'|title %}
+            This is {{ book_t }} by {{ author_t }}. Block trans is powerful!
+           {% endblocktrans %}
+        </div>
+    </div>
+{% endblock %}
+
+

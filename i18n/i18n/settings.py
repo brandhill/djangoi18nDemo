@@ -10,6 +10,8 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import logging
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -67,7 +69,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
@@ -83,6 +85,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates/'),
@@ -103,5 +107,21 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.messages.context_processors.messages',
 )
 
+logging.error(os.path.join(BASE_DIR, 'locale/'))
 
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
+
+
+#ugettext = lambda s: s
+from django.utils.translation import ugettext_lazy as _
+LANGUAGES = (
+    ('zh-tw', _('Traditional Chinese')),
+    ('en', _('English')),
+)
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, '/static/'),
+)
 
